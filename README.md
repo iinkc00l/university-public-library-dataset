@@ -24,15 +24,14 @@ The GitHub repository is intended to provide documentation and code associated w
 ## Dataset Summary
 
   ------------------------------------------------------------------------
-  Dataset               Users  Library Items      Borrowing        Initial
-                                               Interactions       Sparsity
-  ------------ -------------- -------------- -------------- --------------
-  University           14,148          8,369         52,394         99.97%
-  Library                                                   
+  Dataset |               Users  |      Library Items  |  Borrowing Interactions  |  Initial Sparsity
+                                             
+  ------------        ------------- --------------   ----------------------    ----------------
+  University Library |   14,148  |       8,369  |        52,394    |               99.97%
+                                                   
 
-  Public               53,008         54,563        406,170         99.98%
-  Library                                                   
-  ------------------------------------------------------------------------
+ Public Library   |   53,008   |      54,563  |       406,170    |              99.98%
+                                                    
 
 The datasets exhibit characteristics commonly observed in real-world library recommendation environments, including:
 
@@ -172,7 +171,7 @@ The University Library user data include the following variables:
 
   `Total Credit Cumulative`   Integer                 Cumulative academic
                                                       credits
-  ---------------------------------------------------------------------------
+  
 
 The exact variables available may differ between the University Library and Public Library datasets. Researchers should inspect the downloaded files before analysis.
 
@@ -202,7 +201,6 @@ The borrowing data include transaction-level variables such as:
                                                      days
 
   `Trx at the year of`       Integer                 Year/study-year information associated with the transaction
-  --------------------------------------------------------------------------
 
 ### Item Data
 
@@ -236,7 +234,6 @@ The item metadata include bibliographic and collection attributes such as:
 
   `Location Code`         Categorical/String      Library collection or
                                                   location code
-  -----------------------------------------------------------------------
 
 Identifiers such as `UserId`, `BookId`, `BIBID`, `ISBN`, and classification codes should be treated as identifiers or categorical values rather than continuous numerical variables.
 
