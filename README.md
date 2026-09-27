@@ -380,14 +380,14 @@ Researchers should adjust the filenames and column names if the downloaded files
 
 The GitHub repository is intended to provide supporting scripts and examples for reproducible use of the dataset.
 
-Recommended repository organization:
+The repository organization:
 
 ``` text
 .
 ├── README.md
 ├── scripts/
-│   ├── 01_univ_library.py
-│   ├── 02_public_library.py
+│   ├── 01_UnivLib_DIB.py
+│   ├── 02_PublicLib_DIB.py
 
 ```
 
